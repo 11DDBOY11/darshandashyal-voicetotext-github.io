@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voice to Text</title>
+  <style>
+    body { width: 300px; padding: 20px; font-family: Arial; }
+    button { padding: 10px; margin: 10px 0; width: 100%; }
+    #transcript { min-height: 100px; border: 1px solid #ccc; padding: 10px; resize: vertical; }
+  </style>
+</head>
+<body>
+  <button id="start">Start Recording</button>
+  <button id="stop" disabled>Stop Recording</button>
+  <textarea id="transcript" placeholder="Transcript will appear here..."></textarea>
+  <script src="popup.js"></script>
+</body>
+
+</html>
